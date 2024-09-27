@@ -44,7 +44,7 @@ public static WebDriverWait wait;
 		
 		public void goToHomePage() throws Exception {
 			driver.findElement(homepageLabel).click();
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		}
 
 }
